@@ -1,0 +1,23 @@
+{
+  "name": "spinnaker-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fargozhu/spinnaker-hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fargozhu/spinnaker-hello-world/issues"
+  },
+  "homepage": "https://github.com/fargozhu/spinnaker-hello-world#readme"
+}
