@@ -11,7 +11,7 @@ COPY package.json /app/
 RUN npm install --production --quiet
 
 # Copy app files
-COPY src /app/src/
+COPY index.js /app/
 
 EXPOSE 8080
-CMD ["node", "src/server.js"]
+CMD ["node", "app/server.js"]
